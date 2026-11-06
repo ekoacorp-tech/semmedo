@@ -43,7 +43,7 @@ nav em{position:absolute;top:4px;right:22%;background:var(--ac);color:#fff;borde
 <script>
 const MN=['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'];
 const NAT0=["Alimentacao","Impostos","Custos Fixos da Casa","Custos Variáveis da Casa","Telefonia e Internet","Despesa Extras Fixas","Servicos Tomados","Creditos Tomados","Plano de Saúde"];
-const FOR0=["Débito Banco do Brasil","Débito Nu Bank","Cartão de Crédito - Nu Bank","Pix","Desconto em Folha","Devolução Futuro Rael","Devolução Sankhya Viagem","Cartão de Crédito Nu - Provisão/Recorrente","Ekoa - Débito Nu Bank"];
+const FOR0=["Débito em conta","Cartão de crédito","Pix","Dinheiro","Boleto","Desconto em folha","Transferência","Cartão de crédito - recorrente","Outros"];
 const COR=['#13807a','#ff7a59','#f2b134','#5b8def','#9b6bd1','#e0568a','#4cb782','#8d99a6','#c27c4b'];
 const $=s=>document.querySelector(s),R=v=>(v||0).toLocaleString('pt-BR',{style:'currency',currency:'BRL'}),P1=v=>((v||0)*100).toFixed(1).replace('.',',')+'%';
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
